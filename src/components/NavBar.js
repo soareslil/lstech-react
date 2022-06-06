@@ -8,14 +8,14 @@ import { makeStyles } from '@material-ui/styles';
 
 const styles = makeStyles({
   bar: {
-    paddingTop: "1.15rem",
+    // paddingTop: "1.15rem",
     backgroundColor: "black",
     "@media (max-width: 780px)": {
       flexDirection: "column",
     },
   },
   logo: {
-      width:"10%",
+      width:"15%",
       '@media (max-width: 750px)':{
           display: "none"
       }
