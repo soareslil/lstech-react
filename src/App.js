@@ -2,6 +2,7 @@ import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/sty
 import './App.css';
 import Grid from './components/Grid';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 import SecurityIcon from '@material-ui/icons/Security';
 import EventNoteIcon from '@material-ui/icons/EventNote';
@@ -79,6 +80,10 @@ function App() {
         <Grid icon={<ImportExportIcon style={{fill:"#4360A6", height:"125", width: "125"}}/>} title="ImportExport" btnTitle="Show me more"/>
         <Grid icon={<ComputerIcon style={{fill:"#4360A6", height:"125", width: "125"}}/>} title="Computer" btnTitle="Show me more"/>
         <Grid icon={<HttpIcon style={{fill:"#4360A6", height:"125", width: "125"}}/>} title="Http" btnTitle="Show me more"/>
+        </div>
+
+        <div className={classes.bigSpace}>
+          <Footer/>
         </div>
         </ThemeProvider>
     </div>
