@@ -12,7 +12,7 @@ const styles = makeStyles({
       backgroundColor: "black",
       height:"100px",
       "@media (max-width: 780px)": {
-        flexDirection: "column",
+        flexDirection: "row",
       },
     },
     title:{
