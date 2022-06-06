@@ -2,11 +2,14 @@
 
 <br>
 
-### __📃💻 Tutorial de ReactJs com MUI__
+# __📃💻ReactJs com MUI__
+* TEMA: Site de consultoria e desenvolvimento de software
+* Single Aplication Page
+* Projeto desenvolvido para aquisição de conhecimento prático em ReactJs com MUI
 <br>
 
 ### ✔️💻 RESULTADO DO MEU PROJETO:  
-[Link do projeto no ar](https://lstech-react.vercel.app/) 
+[LSTECH](https://lstech-react.vercel.app/) 
 
 ### ✔️📃 APRENDIZADOS DO PROJETO:
 
