@@ -12,6 +12,8 @@ const styles = makeStyles({
     backgroundColor: "black",
     "@media (max-width: 780px)": {
       flexDirection: "column",
+      height: "450px",
+      paddingBottom: "20px"
     },
   },
   logo: {
@@ -35,7 +37,7 @@ const styles = makeStyles({
           color: "#4f25c8"
       },
       '@media(max-width: 780px)':{
-          paddingBottom: "1rem"
+          paddingBottom: "5px"
       }
   }
 });
